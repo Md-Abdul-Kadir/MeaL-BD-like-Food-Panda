@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="meal.css">
+
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <title>The Meal DB</title>
+</head>
+<body>
+    
+    <!-- searching food -->
+    <h1 class="text-center my-5">The Meal BD</h1>
+    <div class="container raw d-flex text-center">
+       <div class="col-8">
+        <input id="search-field" class="form-control h-100" type="text" placeholder="search your food">
+        
+       </div>
+       <div class="col-4">
+        <button onclick="searchFood()" id="button-search" class="btn btn-danger w-100">Search</button>
+       </div>
+    </div>
+
+    <!-- display food -->
+    
+    <div id="search-result" class="container mx-auto row row-cols-1 row-cols-md-3 g-4 my-5">
+    </div>
+  
+    <!-- details food -->
+    <div id="foodDetails">
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="meal.js"></script>
+</body>
+</html>
